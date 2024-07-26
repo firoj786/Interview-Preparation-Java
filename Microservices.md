@@ -54,3 +54,34 @@ In a microservices architecture, each microservice should generally have its own
 𝐈𝐬𝐨𝐥𝐚𝐭𝐢𝐨𝐧: Issues like data corruption or a heavy query load in one service won’t directly affect others.
 
 𝐒𝐜𝐚𝐥𝐢𝐧𝐠: Services can be scaled independently based on their specific demands, optimizing resource usage and performance.
+
+
+Why Each Microservices Should have it's Own DataBase?
+
+1. Independence.
+Each Microservice can be developed, deployed . and managed independently.
+
+Service A->DB1
+Sevice B->DB2
+Service C-> DB3
+
+2. Decentralized Data Management.
+Each Microservice can choose it's own Database technology.
+
+Service A->SQL
+Service B->MongoDB
+Service C->PostgreSQL
+
+3. Isolation.
+Data Corruption or heavy query load in one service won't impact others.
+
+Service A->DB1
+Service B->DB2
+Service C->DB3
+
+4. Scaling.
+Service can be scaled independently.
+
+Service A->DB1
+Service B->DB2
+Service C->DB3
