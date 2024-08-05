@@ -25,3 +25,5 @@ Guidelines for reviewing code written in Kotlin:
 12. Kotlin coding conventions for reference: https://kotlinlang.org/docs/coding-conventions.html .
 
 This is not comprehensive list. Please feel free to add on the list.
+
+ Db-changes-guidelines-and-process.md
