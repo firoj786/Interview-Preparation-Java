@@ -21,6 +21,46 @@ In practice, INNER JOIN and LEFT JOIN tend to be the most frequently used.
 INNER JOIN is ideal for retrieving matching data from both tables, while LEFT JOIN ensures that all records from the left table are included, even if there are no matches in the right table.
 
 
+𝐇𝐨𝐰 𝐭𝐨 𝐢𝐦𝐩𝐫𝐨𝐯𝐞 𝐝𝐚𝐭𝐚𝐛𝐚𝐬𝐞 𝐩𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞?
+
+Here are the top ways to improve database performance:
+
+1. Indexing
+Create the right indexes based on query patterns to speed up data retrieval.
+
+2. Materialized Views
+Store pre-computed query results for quick access, reducing the need to process complex queries repeatedly.
+
+3. Vertical Scaling
+Increase the capacity of the database server by adding more CPU, RAM, or storage.
+
+4. Denormalization
+Reduce complex joins by restructuring data, which can improve query performance.
+
+5. Database Caching
+Store frequently accessed data in a faster storage layer to reduce load on the database.
+
+6. Replication
+Create copies of the primary database on different servers to distribute read load and enhance availability.
+
+7. Sharding
+Divide the database into smaller, manageable pieces, or shards, to distribute load and improve performance.
+
+8. Partitioning
+Split large tables into smaller, more manageable pieces to improve query performance and maintenance.
+
+9. Query Optimization
+Rewrite and fine-tune queries to execute more efficiently.
+
+10. Use of Appropriate Data Types
+Select the most efficient data types for each column to save space and speed up processing.
+
+11. Limiting Indexes
+Avoid excessive indexing, which can slow down write operations; use indexes judiciously.
+
+12. Archiving Old Data
+Move infrequently accessed data to an archive to keep the active database smaller and faster.
+
 
 
 𝗠𝗼𝘀𝘁 𝗶𝗺𝗽𝗼𝗿𝘁𝗮𝗻𝘁 𝗦𝗤𝗟 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀
