@@ -18,6 +18,48 @@ NULL.
 ➡️ SELF JOIN: Joins a table with itself as if it were two separate tables.
 
 
+
+Here are 6 Constraints simply explained.
+
+𝗣𝗥𝗜𝗠𝗔𝗥𝗬 𝗞𝗲𝘆 𝗖𝗼𝗻𝘀𝘁𝗿𝗮𝗶𝗻𝘁
+
+This means that the column's values are not null and unique.
+Each table in the database should have a primary key to identify its records.
+
+
+𝗙𝗢𝗥𝗘𝗜𝗚𝗡 𝗞𝗲𝘆 𝗖𝗼𝗻𝘀𝘁𝗿𝗮𝗶𝗻𝘁
+
+This means the column's values must match those in another table column, which is usually a primary key.
+Establishes a relationship between two tables using a column or set of columns.
+
+
+𝗨𝗡𝗜𝗤𝗨𝗘 𝗖𝗼𝗻𝘀𝘁𝗿𝗮𝗶𝗻𝘁
+
+This means the column cannot have duplicate values across the whole table.
+Great for a username or email field on a User's table.
+
+
+𝗖𝗛𝗘𝗖𝗞 𝗖𝗼𝗻𝘀𝘁𝗿𝗮𝗶𝗻𝘁
+
+The data must meet a custom expression for acceptance.
+For example, if you have a Score percentage column with values between 0 and 100, you can use a check constraint to enforce that.
+
+
+𝗡𝗢𝗧 𝗡𝗨𝗟𝗟 𝗖𝗼𝗻𝘀𝘁𝗿𝗮𝗶𝗻𝘁
+
+Ensures that a column does not contain NULL values. The column must have a value for each row.
+Define NOT NULL columns when your application assumes the existence of a value.
+
+
+𝗗𝗘𝗙𝗔𝗨𝗟𝗧 𝗖𝗼𝗻𝘀𝘁𝗿𝗮𝗶𝗻𝘁
+
+The system assigns a default value to the column if you don't provide an explicit one.
+It is Useful when you want to provide a default value instead of leaving it NULL.
+
+Better Data = Better Software!
+
+
+
 𝐇𝐨𝐰 𝐭𝐨 𝐢𝐦𝐩𝐫𝐨𝐯𝐞 𝐝𝐚𝐭𝐚𝐛𝐚𝐬𝐞 𝐩𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞?
 
 Here are the top ways to improve database performance:
