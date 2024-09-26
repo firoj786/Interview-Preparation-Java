@@ -46,23 +46,21 @@ Tools like Zookeeper help manage and coordinate distributed services, ensuring t
 
 𝐓𝐨𝐩 𝐌𝐢𝐜𝐫𝐨𝐬𝐞𝐫𝐯𝐢𝐜𝐞𝐬 𝐃𝐞𝐬𝐢𝐠𝐧 𝐏𝐚𝐭𝐭𝐞𝐫𝐧𝐬
 
- 1. API Gateway Pattern: Centralizes external access to your microservices, simplifying communication and providing a single entry point for client requests.
+  1. API Gateway Pattern: Centralizes external access to your microservices, simplifying communication and providing a single entry point for client requests.
 
-2. Backends for Frontends Pattern (BFF): Creates dedicated backend services for each frontend, optimizing performance and user experience tailored to each platform.
+➡ 2. Backends for Frontends Pattern (BFF): Creates dedicated backend services for each frontend, optimizing performance and user experience tailored to each platform.
 
- 3. Service Discovery Pattern: Enables microservices to dynamically discover and communicate with each other, simplifying service orchestration and enhancing system scalability.
+➡ 3. Service Discovery Pattern: Enables microservices to dynamically discover and communicate with each other, simplifying service orchestration and enhancing system scalability.
 
-4. Circuit Breaker Pattern: Implements a fault-tolerant mechanism for microservices, preventing cascading failures by automatically detecting and isolating faulty services.
+➡ 4. Circuit Breaker Pattern: Implements a fault-tolerant mechanism for microservices, preventing cascading failures by automatically detecting and isolating faulty services.
 
- 5. Retry Pattern: Enhances microservices' resilience by automatically retrying failed operations, increasing the chances of successful execution and minimizing transient issues.
+➡ 5. Retry Pattern: Enhances microservices' resilience by automatically retrying failed operations, increasing the chances of successful execution and minimizing transient issues.
 
- 6. Sidecar Pattern: Attaches additional components to your microservices, providing modular functionality without altering the core service itself.
+➡ 6. Sidecar Pattern: Attaches additional components to your microservices, providing modular functionality without altering the core service itself.
 
- 7. Saga Pattern: Manages distributed transactions across multiple microservices, ensuring data consistency while maintaining the autonomy of your services.
+➡ 7. Saga Pattern: Manages distributed transactions across multiple microservices, ensuring data consistency while maintaining the autonomy of your services.
 
- 8. CQRS (Command Query Responsibility Segregation) Pattern: Separates the read and write operations in a microservice, improving performance, scalability, and maintainability.
-
-
+➡ 8. CQRS (Command Query Responsibility Segregation) Pattern: Separates the read and write operations in a microservice, improving performance, scalability, and maintainability.
 
 
 
