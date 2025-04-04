@@ -49,3 +49,10 @@
 23. 𝐰𝐠𝐞𝐭 𝐮𝐫𝐥: Download files from the web.
 
 24. 𝐦𝐚𝐧 𝐜𝐨𝐦𝐦𝐚𝐧𝐝: Display the manual page for a command.
+
+
+All Link
+
+https://jsonviewer.stack.hu/#http://
+
+https://www.diffchecker.com/text-compare/
